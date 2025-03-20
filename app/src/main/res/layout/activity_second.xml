@@ -15,8 +15,9 @@
         android:textSize="20sp"/>
 
     <Button
-        style="@style/Widget.Material3.Button.TextButton"
-        android:background="?attr/colorPrimary"
+        style="@style/Widget.Material3.Button"
+        android:background="?attr/colorOutline"
+        android:textColor="?attr/colorOnSecondary"
         android:id="@+id/action_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,8 +25,9 @@
         android:layout_marginTop="16dp"/>
 
     <Button
-        style="@style/Widget.Material3.Button.TextButton"
-        android:background="?attr/colorPrimary"
+        style="@style/Widget.Material3.Button"
+        android:background="?attr/colorSecondary"
+        android:textColor="?attr/colorOnSecondary"
         android:id="@+id/navigate_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

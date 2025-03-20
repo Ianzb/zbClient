@@ -40,6 +40,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    compileOnly("de.robv.android.xposed:api:82")         // 必要API
-    compileOnly("de.robv.android.xposed:api:82:sources") // 可选源码
+    implementation(libs.xposed.api)
+
+    implementation(libs.material.icons.extended)
 }
+

@@ -5,10 +5,11 @@ junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
 material = "1.10.0"
-activity = "1.8.0"
-constraintlayout = "2.1.4"
+activity = "1.8.1"
+constraintlayout = "2.2.1"
 xposed-api = "82"
-
+compose-material3 = "1.2.1"
+compose-icons-extended = "1.6.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -18,8 +19,8 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-
-xposed-api = { group = "de.robv.android.xposed", name = "api", version.ref = "xposed-api" }
+xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed-api" }
+material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose-icons-extended" }
 
 
 [plugins]
