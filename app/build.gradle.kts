@@ -47,7 +47,7 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation(libs.xposed.api)
     implementation(libs.material.icons.extended)
-    implementation("androidx.navigation:navigation-fragment:2.7.7")
-    implementation("androidx.navigation:navigation-ui:2.7.7")
+    implementation(libs.navigation.fragment)
+    implementation(libs.navigation.ui)
 }
 

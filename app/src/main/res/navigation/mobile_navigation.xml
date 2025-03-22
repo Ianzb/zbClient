@@ -18,7 +18,7 @@
         tools:layout="@layout/fragment_settings" />
 
     <fragment
-        android:id="@+id/navigation_about"
+        android:id="@+id/navigation_info"
         android:name="com.ianzb.zbclient.ui.info.InfoFragment"
         android:label="@string/title_about"
         tools:layout="@layout/fragment_info" />
